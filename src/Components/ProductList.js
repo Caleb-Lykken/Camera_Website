@@ -6,6 +6,21 @@ const products = [
     price: '$249.99',
     imageUrl: "/Images/Camera.jpg"
   },
+  {
+    productName: 'Canon AE-1',
+    price: '$249.99',
+    imageUrl: "/Images/Camera.jpg"
+  },
+  {
+    productName: 'Canon AE-1',
+    price: '$249.99',
+    imageUrl: "/Images/Camera.jpg"
+  },
+  {
+    productName: 'Canon AE-1',
+    price: '$249.99',
+    imageUrl: "/Images/Camera.jpg"
+  },
   // ... other products
 ];
 

@@ -1,5 +1,7 @@
 /* styles.css */
-
+div.app{
+  background-color: #FBFBF2;
+}
 header {
   width: 100%;
 }
@@ -30,13 +32,15 @@ nav ul li {
 }
 
 .product-card {
-  margin-top: 20px;
-  width: 225px;
+  border-radius: 25px;
+  margin: 20px;
+  width: 225px ;
   height: 281px;
   background: #E5E6E4;
 }
 
 .product-list {
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-around;
 }
@@ -45,7 +49,11 @@ div.product-image {
   width: 206px;
   height: 206px;
 }
+img.image-rendered-corners{
+  border-radius: 25px;
+}
 div.product-details {
+  margin: 0 5px;
   color: #847577;
   font-family: Dosis;
   font-size: 15px;
